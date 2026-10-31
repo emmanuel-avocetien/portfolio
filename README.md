@@ -34,3 +34,8 @@ I am an **IT & Cybersecurity Enthusiast** passionate about Linux Systems Adminis
 
 - **LinkedIn:** [(https://www.linkedin.com/in/fofoprio/)]
 - **Email:** e.avocetien@yahoo.com
+
+
+
+- [Projet 1 : Active Directory dans Azure et monitoring SOC](projet-1-ad-cloud-monitoring/README.md) — incident réel de force brute détecté et documenté
+
