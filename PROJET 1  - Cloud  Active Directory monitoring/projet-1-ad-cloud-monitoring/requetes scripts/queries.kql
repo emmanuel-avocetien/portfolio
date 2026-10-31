@@ -1,0 +1,16 @@
+// Heartbeat : agents connectés
+Heartbeat | take 10
+// Échecs de connexion par heure
+Event | where EventLog == "Security" and EventID == 4625
+| summarize Echecs = count() by Computer, bin(TimeGenerated, 1h)
+// IP sources et comptes visés
+Event | where EventLog == "Security" and EventID == 4625
+| extend Ip = extract(@"Source Network Address:\s+(\S+)", 1, RenderedDescription),
+         Compte = tostring(extract_all(@"Account Name:\s+(\S+)", RenderedDescription)[1])
+| summarize Echecs = count() by Ip, Compte | top 15 by Echecs desc
+// Connexions RDP réussies depuis l'extérieur
+Event | where EventLog == "Security" and EventID == 4624
+| extend Type = extract(@"Logon Type:\s+(\d+)", 1, RenderedDescription),
+         Ip = extract(@"Source Network Address:\s+(\S+)", 1, RenderedDescription)
+| where Type == "10" and not(Ip startswith "10.") and Ip !in ("-","::1","127.0.0.1")
+| project TimeGenerated, Computer, Ip
