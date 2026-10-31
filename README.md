@@ -2,7 +2,7 @@
 
 # Hi there, I'm Emmanuel 👋
 
-🎓 **Bachelor's Degree** | 📜 **CCNA** | 📜 **Security+** | 🐧 **RHCSA** | **Terraform Certified Associate (in progress)**  | 🐧 **Terraform Certified Associate (in progress)**
+🎓 **Bachelor's Degree** | 📜 **CCNA** | 📜 **Security+** | 🐧 **RHCSA**  | 🐧 **Terraform Certified Associate (in progress)**
 
 I am an **IT & Cybersecurity Enthusiast** passionate about Linux Systems Administration, Cloud Infrastructure, and Network Security.
 
