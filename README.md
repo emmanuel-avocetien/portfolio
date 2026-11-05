@@ -39,3 +39,5 @@ I am an **IT & Cybersecurity Enthusiast** passionate about Linux Systems Adminis
 
 - [Projet 1 : Active Directory dans Azure et monitoring SOC](projet-1-ad-cloud-monitoring/README.md) — incident réel de force brute détecté et documenté
 
+- [Projet 2 : Reconnaissance réseau avec Nmap](projet-2-nmap-reconnaissance/README.md) — énumération d'un contrôleur de domaine Active Directory, tableau de risques et recommandations
+
