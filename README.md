@@ -10,7 +10,7 @@ I am an **IT & Cybersecurity Enthusiast** passionate about Linux Systems Adminis
 
 ### 🛠️ Tech Stack & Skills
 
-- **OS & Admin:** Red Hat Enterprise Linux (RHEL), Linux CLI, Bash Scripting, Systemd, SELinux, Firewalld
+- **OS & Admin:** Red Hat Enterprise Linux (RHEL), Linux CLI, Bash Scripting, Systemd, SELinux, Firewalld, WindowsServer
 - **Networking & Security:** Cisco CCNA, Network Analysis, Nmap, SIEM, Log Management
 - **Cloud & Identity:** Active Directory, Azure Risk Assessment, Cloud Security
 - **Web Security:** OWASP ZAP, Vulnerability Assessment
